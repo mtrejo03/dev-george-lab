@@ -1,5 +1,5 @@
 $("button").click(function(){
-    $.getJSON("https://barrycumbie.github.io/barrycumbie/data.json", function(result){
+    $.getJSON("https://mtrejo03.github.io/dev-david-hw/data.json", function(result){
       $.each(result, function(i, field){
         $("div").append(field + " ");
       });
